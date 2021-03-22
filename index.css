@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: #89ABE3FF ;
+    font-family: monospace;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: minmax(170px, auto);
+    gap: 10px;
+}
+
+h1{
+    margin-left: 15px;
+}
+
+nav{
+    grid-column: 1/6;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+ul{
+    display: flex;
+    
+}
+
+li{
+    width: 100px;
+} 
+
+/*content*/
+.self-img{
+    grid-column: 2/3;
+}
+
+.about-me{
+    grid-column: 3/5;
+    display: flex;
+    align-items: center;
+}
+
+#hello{
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+#about-me-paras{
+    line-height: 1.2rem;
+}
+
+/*projects*/
+
+.section-title{
+    grid-column: 1/6;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5rem;
+}
+ #projects{
+    grid-column: 1/6;
+} 
+
+
+ .text-adventure{
+    grid-column: 2/3;
+}
+
+.snow-man{
+    grid-column: 4/6;
+} 
+
+a :hover {
+    text-transform: uppercase;
+}
+
+h3{
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+button{
+    background-color:#89ABE3FF ;
+    border: 2px solid rgb(89, 112, 150);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.project-one-description{
+    display: none;
+}
+
+.project-two-description{
+    display: none;
+}
+
+/*skills*/
+.section-title1{
+    grid-column: 1/6;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.skills-imgs{
+    grid-column: 1/6;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+}
+
+#logo{
+    height: 100px;
+}
+
+/*contact*/
+.section-title2{
+    grid-column: 1/6;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.contact-imgs{
+    grid-column: 1/6;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.logos2{
+    height:30px ;
+    padding: 15px;
+}
+
+/*images*/
+
+#self{
+    height: 350px;
+}
+
+img{
+    height: 350px;
+}
+
+@media all and (max-width: 768px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
