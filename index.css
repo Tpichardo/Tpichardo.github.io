@@ -10,7 +10,15 @@ body{
     background-color: #89ABE3FF ;
     font-family: monospace;
 }
+/* 
+Nice use of css grid!
+I noticed a commit message saying 'grid problems' and I'd love to hear more...
+This grid layout works nicely unless the screen width is less than the width that
+the content inside the grid takes up.
 
+There are a couple ways to address this - Let me know if you want more specific ideas!
+
+*/
 .container{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
