@@ -158,11 +158,69 @@ img{
 }
 
 @media all and (max-width: 768px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    #self{
+        height: 250px;
+        margin-top: 10px;
+    }
+
+    #about-me-paras{
+        margin: 20px;
+    }
+
+    span{
+        text-align: center;
+    }
+    
     .container{
         display: flex;
         flex-direction: column;
         align-items: center;
+        overflow: hidden;
     }
+    .skills-imgs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+    }
+
+   
+    .description-one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description-two{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-img-one img{
+        height: 250px;
+        margin: 30px;
+    }
+
+    .project-img-two img{
+        height: 215px;
+        margin: 20px;
+    }
+    
+    .project-one-description p{
+        text-align: center;
+    }
+    .project-two-description p{
+        text-align: center;
+    }
+
 }
 
 

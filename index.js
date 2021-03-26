@@ -1,9 +1,7 @@
 document.addEventListener("DOMContentLoaded", () =>{
     const showMoreOne = document.querySelector("#expand-btn-one");
     const projectOneDes = document.querySelector(".project-one-description");
-    showMoreOne.addEventListener("click", (event)=>{
-        projectOne();
-    })
+    showMoreOne.addEventListener("click", (projectOne))
 
     function projectOne(){
         let displayOne = projectOneDes.style.display
