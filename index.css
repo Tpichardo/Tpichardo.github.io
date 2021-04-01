@@ -6,6 +6,10 @@
     color: black;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body{
     background-color: #89ABE3FF ;
     font-family: monospace;
